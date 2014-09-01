@@ -1,0 +1,40 @@
+{
+  "name": "pickaxe",
+  "version": "0.0.0",
+  "description": "A tool for Minecraft server administration",
+  "author": {
+    "name": "Tom Heinan",
+    "email": "me@tomheinan.com",
+    "url": "https://tomheinan.com/"
+  },
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/tomheinan/pickaxe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomheinan/pickaxe"
+  },
+  "bugs": {
+    "url": "https://github.com/tomheinan/pickaxe/issues"
+  },
+  "bin": {
+    "pickaxe": "./bin/pickaxe.js",
+    "pick": "./bin/pickaxe.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "server",
+    "admin",
+    "administration",
+    "tool"
+  ],
+  "os": [
+    "!win32"
+  ],
+  "preferGlobal": true,
+  "dependencies": {
+    "commander": "2.3.x"
+  }
+}
